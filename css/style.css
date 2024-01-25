@@ -1,0 +1,116 @@
+body {
+    background-image: url("../img/wood.jpg");
+    margin: 0; 
+    line-height: 130%; 
+ }
+ 
+ main {
+     width: 1200px; 
+     margin: 0 auto; 
+     background-color: #b38729; 
+     padding: 20px; 
+ }
+ 
+ .licence{
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ header {
+     background-color: transparent;
+     padding: 40px 0; 
+ }
+ 
+ footer {
+     text-align: center;
+     color: rgb(0, 0, 0); 
+     font-size: 20px; 
+ }
+ 
+ h1, h2, h3 {
+     font-family: Arial, Helvetica, sans-serif; 
+ }
+ 
+ h1 {
+     font-size: 2em; 
+     color: rgb(0, 0, 0); 
+     text-align: center; 
+     text-transform: uppercase; 
+    }
+
+ h2 {
+     color:#000000;
+     margin-top: 30px; 
+ }
+ 
+ h3 {
+     border-bottom: 1px dotted #000000; 
+     font-size: 1.2em; 
+     margin-top: 20px; 
+ }
+
+ figcaption{
+    text-align: left;
+ }
+
+ a {
+     color: #ff0000; 
+     text-decoration: none; 
+ }
+ 
+ p{
+    color: #000000;
+ }
+
+ a:hover {
+     background-color: bisque; 
+     text-decoration: underline; 
+ }
+ 
+ 
+ code, mark {
+     font-family:Arial, Helvetica, sans-serif;
+ }
+
+ .back{
+    height: 24px;
+    width: 24px;
+    padding-left: 30px;
+    margin-top: -22px;
+    cursor: pointer;
+ }
+
+ .back a:hover{
+    background: none;
+ }
+
+ .firmware-img{
+    width: 700px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ mark {
+     padding: 0 5px; 
+     background-color: #ff0000; 
+     color: rgb(255, 255, 255); 
+ }
+
+
+ @media screen and (max-width: 1200px) {
+     main {
+         width: 90%;
+         margin: 0 auto; 
+     }    
+ }
+ 
+#software{
+    width: 1200px;
+    height: 740px;
+}

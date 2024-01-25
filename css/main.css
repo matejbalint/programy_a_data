@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url("../img/wood.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+a{
+    color: blue    ;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    font-size: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center; 
+    color: #000000;
+    font-size: 30px; 
+    margin-top: 30px; 
+    text-transform: uppercase; 
+}
+
+h3 a {
+    color: #ffffff; 
+    font-size: 20px; 
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #38479c; 
+    text-decoration: underline; 
+}
+
+main {
+    width: 1200px; 
+    margin: 0 auto; 
+}
+
+.flex-container {
+    display: flex; 
+    background-color: #633d05; 
+    flex-wrap: wrap; 
+}
+  
+.flex-container > div {
+    background-color: #b38729; 
+    margin: 10px; 
+    padding: 20px; 
+    font-size: 14px; 
+    flex: 25%; 
+}
+
+li{
+    padding: 7px;
+    list-style-position: inside ;
+    font-size: 112%;
+    font-size: 140%;
+    background-color: #633d05;
+}
+
+footer {
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    margin-top: 50px;
+}
+
+.signature{
+    color: rgb(0, 0, 0);
+ }
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 90%; 
+    }   
+     
+    .flex-container {
+        flex-direction: column; 
+    }
+}

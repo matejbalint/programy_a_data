@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operační systémy</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Zálohování programů a dat</h1>
+  </header>
+  <main>
+    <h2 id="typy-zaloh">Typy záloh</h2>
+    <p>
+      Nestrukturovaná: Úložištěm může být větší množství disket, CD, DVD medií s minimem informací o záloze; nejjednodušší, ale nevhodná pro větší firmy.
+
+      Úplná + inkrementální: Cílem je vytvořit více kopií zálohovaných dat; poprvé je provedena úplná záloha všech dat; poté je prováděna tzv. inkrementální záloha.
+      
+      Úplná + rozdílová: Rozdíl oproti předešlé metodě je v tom, že po úplné záloze každá částečná záloha zachytí všechny soubory vytvořené nebo změněné od vytvoření úplné zálohy.
+      
+      Zrcadlová + reverzně přírůstková: Tento model obsahuje zrcadlo reflektující stav systému po poslední záloze a historii přírůstkových záloh.
+    </p>
+
+    <h2 id="zasady-zalohovani">Zásady zálohování</h2>
+    <p>
+      Postupy zálohování volíme v závislosti na konkrétní situaci (jak často dochází ke změně dat, jak jsou data cenná ...).
+
+      Provádíme kontrolu záloh – umožnuje většina programů (např. použití kontrolního součtu).
+      
+      Pečlivě popisujeme zálohy (co obsahují, datum vytvoření).
+      
+      Pořizujeme zálohy z instalačních médií; originální média by měla být ihned po pořízení kopií uložena na bezpečném místě.
+    </p>
+
+    <h3 id="moznodsti-zalohovani">Možnosti zálohování</h3>
+    <p>
+      Záloha adresářů a souborů: Provádíme ji různými způsoby - prostým kopírováním obsahu plánovanou synchronizací, zálohováním adresáře s komprimací obsahu.
+
+      Záloha oddílu: Záloha obsahu celého diskového oddílu včetně instalovaného operačního systému.
+      
+      Záloha disku: Záloha obsahu celého disku včetně rozdělení disku na jednotlivé oddíly.
+      
+      Záloha systému: Záloha funkčního stavu systému, která umožňuje obnovení systému do původní podoby.
+    </p>
+    <h3 id="prostredky-zalohovani">Prostředky zálohování</h3>
+    <p>
+      Specializovaný program (např. ve Windows je součástí instalace).
+
+      Specializovaná zařízení (hardware), která pracují automatizovaně.
+      
+      Komplexní zálohovací systémy umožňující efektivně zálohovat mnoho
+      
+      počítačů propojených počítačovou sítí, nebo naopak na mnoho počítačů 
+      
+      propojených v síti data zálohovat (tzv. úložný cluster).
+    </p>
+    <img class="kancel" src="./zalohovani.png" alt="software-balicky">
+  </main>
+  <footer>
+    <hr>
+    <p>&copy; 2024, autor: <b>Matěj Balint</b>, třída: <b>IT1</b> &reg;</p>
+  </footer>
+</body>
+
+</html>
